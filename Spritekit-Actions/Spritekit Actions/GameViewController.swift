@@ -1,8 +1,8 @@
 //
 //  GameViewController.swift
-//  Spritekit Actions
+//  Whack a Mole
 //
-//  Created by Colin Whiteford on 9/24/25.
+//  Created by Colin Whiteford on 9/17/25.
 //
 
 import UIKit

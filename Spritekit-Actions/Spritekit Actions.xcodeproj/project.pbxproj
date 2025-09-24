@@ -6,20 +6,29 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B66110092E849B1000D335AC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66110032E849B1000D335AC /* GameViewController.swift */; };
+		B661100A2E849B1000D335AC /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66110022E849B1000D335AC /* GameScene.swift */; };
+		B661100B2E849B1000D335AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66110002E849B1000D335AC /* AppDelegate.swift */; };
+		B661100C2E849B1000D335AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B66110072E849B1000D335AC /* Main.storyboard */; };
+		B661100D2E849B1000D335AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B66110052E849B1000D335AC /* LaunchScreen.storyboard */; };
+		B661100E2E849B1000D335AC /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B66110012E849B1000D335AC /* GameScene.sks */; };
+		B66110102E849C2D00D335AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B661100F2E849C2D00D335AC /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		B67489CB2E8494F300715A66 /* Spritekit Actions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spritekit Actions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B66110002E849B1000D335AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B66110012E849B1000D335AC /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		B66110022E849B1000D335AC /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		B66110032E849B1000D335AC /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		B66110042E849B1000D335AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B66110062E849B1000D335AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B661100F2E849C2D00D335AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6748A032E8499F700715A66 /* Spritekit Actions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spritekit Actions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		B67489CD2E8494F300715A66 /* Spritekit Actions */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Spritekit Actions";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
-
 /* Begin PBXFrameworksBuildPhase section */
-		B67489C82E8494F300715A66 /* Frameworks */ = {
+		B6748A002E8499F700715A66 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,103 +38,140 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B67489C22E8494F300715A66 = {
+		B64AF2522E7B5CBC00BE3415 = {
 			isa = PBXGroup;
 			children = (
-				B67489CD2E8494F300715A66 /* Spritekit Actions */,
-				B67489CC2E8494F300715A66 /* Products */,
+				B66110082E849B1000D335AC /* Spritekit Actions */,
+				B64AF25C2E7B5CBC00BE3415 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B67489CC2E8494F300715A66 /* Products */ = {
+		B64AF25C2E7B5CBC00BE3415 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B67489CB2E8494F300715A66 /* Spritekit Actions.app */,
+				B6748A032E8499F700715A66 /* Spritekit Actions.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B66110082E849B1000D335AC /* Spritekit Actions */ = {
+			isa = PBXGroup;
+			children = (
+				B661100F2E849C2D00D335AC /* Assets.xcassets */,
+				B66110002E849B1000D335AC /* AppDelegate.swift */,
+				B66110012E849B1000D335AC /* GameScene.sks */,
+				B66110022E849B1000D335AC /* GameScene.swift */,
+				B66110032E849B1000D335AC /* GameViewController.swift */,
+				B66110052E849B1000D335AC /* LaunchScreen.storyboard */,
+				B66110072E849B1000D335AC /* Main.storyboard */,
+			);
+			path = "Spritekit Actions";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B67489CA2E8494F300715A66 /* Spritekit Actions */ = {
+		B6748A022E8499F700715A66 /* Spritekit Actions */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B67489E22E8494F500715A66 /* Build configuration list for PBXNativeTarget "Spritekit Actions" */;
+			buildConfigurationList = B6748A152E8499F900715A66 /* Build configuration list for PBXNativeTarget "Spritekit Actions" */;
 			buildPhases = (
-				B67489C72E8494F300715A66 /* Sources */,
-				B67489C82E8494F300715A66 /* Frameworks */,
-				B67489C92E8494F300715A66 /* Resources */,
+				B67489FF2E8499F700715A66 /* Sources */,
+				B6748A002E8499F700715A66 /* Frameworks */,
+				B6748A012E8499F700715A66 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				B67489CD2E8494F300715A66 /* Spritekit Actions */,
-			);
 			name = "Spritekit Actions";
 			packageProductDependencies = (
 			);
 			productName = "Spritekit Actions";
-			productReference = B67489CB2E8494F300715A66 /* Spritekit Actions.app */;
+			productReference = B6748A032E8499F700715A66 /* Spritekit Actions.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B67489C32E8494F300715A66 /* Project object */ = {
+		B64AF2532E7B5CBC00BE3415 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1630;
 				LastUpgradeCheck = 1630;
 				TargetAttributes = {
-					B67489CA2E8494F300715A66 = {
+					B6748A022E8499F700715A66 = {
 						CreatedOnToolsVersion = 16.3;
 					};
 				};
 			};
-			buildConfigurationList = B67489C62E8494F300715A66 /* Build configuration list for PBXProject "Spritekit Actions" */;
+			buildConfigurationList = B64AF2562E7B5CBC00BE3415 /* Build configuration list for PBXProject "Spritekit Actions" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = B67489C22E8494F300715A66;
+			mainGroup = B64AF2522E7B5CBC00BE3415;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = B67489CC2E8494F300715A66 /* Products */;
+			productRefGroup = B64AF25C2E7B5CBC00BE3415 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B67489CA2E8494F300715A66 /* Spritekit Actions */,
+				B6748A022E8499F700715A66 /* Spritekit Actions */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B67489C92E8494F300715A66 /* Resources */ = {
+		B6748A012E8499F700715A66 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B661100C2E849B1000D335AC /* Main.storyboard in Resources */,
+				B661100D2E849B1000D335AC /* LaunchScreen.storyboard in Resources */,
+				B66110102E849C2D00D335AC /* Assets.xcassets in Resources */,
+				B661100E2E849B1000D335AC /* GameScene.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B67489C72E8494F300715A66 /* Sources */ = {
+		B67489FF2E8499F700715A66 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B66110092E849B1000D335AC /* GameViewController.swift in Sources */,
+				B661100A2E849B1000D335AC /* GameScene.swift in Sources */,
+				B661100B2E849B1000D335AC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		B66110052E849B1000D335AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B66110042E849B1000D335AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B66110072E849B1000D335AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B66110062E849B1000D335AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		B67489E02E8494F500715A66 /* Debug */ = {
+		B64AF2702E7B5CBE00BE3415 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -188,7 +234,7 @@
 			};
 			name = Debug;
 		};
-		B67489E12E8494F500715A66 /* Release */ = {
+		B64AF2712E7B5CBE00BE3415 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -244,7 +290,7 @@
 			};
 			name = Release;
 		};
-		B67489E32E8494F500715A66 /* Debug */ = {
+		B6748A162E8499F900715A66 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -271,7 +317,7 @@
 			};
 			name = Debug;
 		};
-		B67489E42E8494F500715A66 /* Release */ = {
+		B6748A172E8499F900715A66 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -301,25 +347,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B67489C62E8494F300715A66 /* Build configuration list for PBXProject "Spritekit Actions" */ = {
+		B64AF2562E7B5CBC00BE3415 /* Build configuration list for PBXProject "Spritekit Actions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B67489E02E8494F500715A66 /* Debug */,
-				B67489E12E8494F500715A66 /* Release */,
+				B64AF2702E7B5CBE00BE3415 /* Debug */,
+				B64AF2712E7B5CBE00BE3415 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B67489E22E8494F500715A66 /* Build configuration list for PBXNativeTarget "Spritekit Actions" */ = {
+		B6748A152E8499F900715A66 /* Build configuration list for PBXNativeTarget "Spritekit Actions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B67489E32E8494F500715A66 /* Debug */,
-				B67489E42E8494F500715A66 /* Release */,
+				B6748A162E8499F900715A66 /* Debug */,
+				B6748A172E8499F900715A66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B67489C32E8494F300715A66 /* Project object */;
+	rootObject = B64AF2532E7B5CBC00BE3415 /* Project object */;
 }
