@@ -14,6 +14,11 @@
 		B661100D2E849B1000D335AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B66110052E849B1000D335AC /* LaunchScreen.storyboard */; };
 		B661100E2E849B1000D335AC /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B66110012E849B1000D335AC /* GameScene.sks */; };
 		B66110102E849C2D00D335AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B661100F2E849C2D00D335AC /* Assets.xcassets */; };
+		B66110172E84A6FA00D335AC /* hitCatLady.wav in Resources */ = {isa = PBXBuildFile; fileRef = B66110132E84A6FA00D335AC /* hitCatLady.wav */; };
+		B66110182E84A6FA00D335AC /* backgroundMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B66110112E84A6FA00D335AC /* backgroundMusic.mp3 */; };
+		B66110192E84A6FA00D335AC /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = B66110152E84A6FA00D335AC /* win.wav */; };
+		B661101A2E84A6FA00D335AC /* hitCat.wav in Resources */ = {isa = PBXBuildFile; fileRef = B66110122E84A6FA00D335AC /* hitCat.wav */; };
+		B661101B2E84A6FA00D335AC /* lose.wav in Resources */ = {isa = PBXBuildFile; fileRef = B66110142E84A6FA00D335AC /* lose.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		B66110042E849B1000D335AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B66110062E849B1000D335AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B661100F2E849C2D00D335AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B66110112E84A6FA00D335AC /* backgroundMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backgroundMusic.mp3; sourceTree = "<group>"; };
+		B66110122E84A6FA00D335AC /* hitCat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hitCat.wav; sourceTree = "<group>"; };
+		B66110132E84A6FA00D335AC /* hitCatLady.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hitCatLady.wav; sourceTree = "<group>"; };
+		B66110142E84A6FA00D335AC /* lose.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lose.wav; sourceTree = "<group>"; };
+		B66110152E84A6FA00D335AC /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = "<group>"; };
 		B6748A032E8499F700715A66 /* Spritekit Actions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spritekit Actions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -64,8 +74,21 @@
 				B66110032E849B1000D335AC /* GameViewController.swift */,
 				B66110052E849B1000D335AC /* LaunchScreen.storyboard */,
 				B66110072E849B1000D335AC /* Main.storyboard */,
+				B66110162E84A6FA00D335AC /* Sounds */,
 			);
 			path = "Spritekit Actions";
+			sourceTree = "<group>";
+		};
+		B66110162E84A6FA00D335AC /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				B66110112E84A6FA00D335AC /* backgroundMusic.mp3 */,
+				B66110122E84A6FA00D335AC /* hitCat.wav */,
+				B66110132E84A6FA00D335AC /* hitCatLady.wav */,
+				B66110142E84A6FA00D335AC /* lose.wav */,
+				B66110152E84A6FA00D335AC /* win.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +153,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B661100C2E849B1000D335AC /* Main.storyboard in Resources */,
+				B66110172E84A6FA00D335AC /* hitCatLady.wav in Resources */,
+				B66110182E84A6FA00D335AC /* backgroundMusic.mp3 in Resources */,
+				B66110192E84A6FA00D335AC /* win.wav in Resources */,
+				B661101A2E84A6FA00D335AC /* hitCat.wav in Resources */,
+				B661101B2E84A6FA00D335AC /* lose.wav in Resources */,
 				B661100D2E849B1000D335AC /* LaunchScreen.storyboard in Resources */,
 				B66110102E849C2D00D335AC /* Assets.xcassets in Resources */,
 				B661100E2E849B1000D335AC /* GameScene.sks in Resources */,

@@ -16,10 +16,11 @@ class GameScene: SKScene {
     let zombieScale = 0.6
     var zombieVelocity: CGPoint = CGPoint.zero
     var zombieSpeed: CGFloat = 480
-    
+    let enemyCollisionSound : SKAction = SKAction.playSoundFileNamed("hitCatLady", waitForCompletion: false)
     func spawnEnemy()
     {
         let enemy = SKSpriteNode(imageNamed: "enemy")
+        enemy.name = "enemy"
         enemy.setScale(zombieScale)
         enemy.position = CGPoint(x: size.width / 2 + enemy.size.width/2, y:0)
         addChild(enemy)
@@ -59,7 +60,9 @@ class GameScene: SKScene {
         }
         lastUpdateTime = currentTime
         Move(sprite: zombie, velocity: zombieVelocity)
-        //checkZombieBounds()
+        checkZombieBounds()
+        rotateZombie(sprite: zombie, direction: zombieVelocity)
+        checkCollision()
     }
     func DetermineVelocity(location: CGPoint)
     {
@@ -114,4 +117,28 @@ class GameScene: SKScene {
             zombieVelocity.y = -zombieVelocity.y
         }
     }
+    func rotateZombie(sprite: SKSpriteNode, direction: CGPoint)
+    {
+        sprite.zRotation = atan2(direction.y, direction.x)
+    }
+    func checkCollision()
+    {
+        var hitEnemies : [SKSpriteNode] = []
+        enumerateChildNodes(withName: "enemy")
+        {
+            (node, _) in
+            let enemyNode = node as! SKSpriteNode
+            if enemyNode.frame.intersects(self.zombie.frame)
+            {
+                hitEnemies.append(enemyNode)
+            }
+        }
+        for enemy in hitEnemies
+        {
+            enemy.removeFromParent()
+            run(enemyCollisionSound)
+            print("Hit an enemy!")
+        }
+    }
+    
 }
